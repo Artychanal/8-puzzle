@@ -56,10 +56,10 @@ class PuzzleState : IComparable<PuzzleState>
         int n = 3;
         int[][] directions = new int[][] 
         {
-            new int[] { -1, 0 },  // Вверх
-            new int[] { 1, 0 },   // Вниз
-            new int[] { 0, -1 },  // Влево
-            new int[] { 0, 1 }    // Вправо
+            new int[] { -1, 0 },  // Up
+            new int[] { 1, 0 },   // Down
+            new int[] { 0, -1 },  // Left
+            new int[] { 0, 1 }    // Right
         };
 
         foreach (var dir in directions)
@@ -239,10 +239,10 @@ class PuzzleGenerator
 
         int[][] directions = new int[][] 
         {
-            new int[] { -1, 0 },  // Вверх
-            new int[] { 0, 1 },   // Вправо
-            new int[] { 1, 0 },   // Вниз
-            new int[] { 0, -1 }   // Влево
+            new int[] { -1, 0 },  // UP
+            new int[] { 0, 1 },   // Right
+            new int[] { 1, 0 },   // Down
+            new int[] { 0, -1 }   // Left
         };
 
         for (int i = 0; i < moves; i++)
